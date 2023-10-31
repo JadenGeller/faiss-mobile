@@ -22,12 +22,12 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FAISS",
-            url: "https://github.com/eugenehp/faiss-mobile/releases/download/v\(version)/faiss.xcframework.zip"
+            url: "https://github.com/eugenehp/faiss-mobile/releases/download/v\(version)/faiss.xcframework.zip",
             checksum: checksum
         ),
         .binaryTarget(
             name: "FAISS_C",
-            url: "https://github.com/eugenehp/faiss-mobile/releases/download/v\(version)/faiss_c.xcframework.zip"
+            url: "https://github.com/eugenehp/faiss-mobile/releases/download/v\(version)/faiss_c.xcframework.zip",
             checksum: checksum_c
         )
     ]
