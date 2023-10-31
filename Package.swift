@@ -8,7 +8,7 @@ let checksum_c = "85526c0384812d1b3c113dabb67ee779afe9b5225a9a57fbe936298a610b6f
 let package = Package(
     name: "FAISS",
     platforms: [
-        .macOS(.v13_3), .iOS(.v13), .watchOS(.v6_0), .tvOS(.v6_0)
+        .macOS(.v13), .iOS(.v13), .watchOS(.v6), .tvOS(.v6)
     ],
     products: [
         .library(
